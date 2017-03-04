@@ -1,0 +1,27 @@
+{
+  "name": "mmm-m",
+  "version": "1.0.0",
+  "description": "Current movies module for MagicMirror2",
+  "main": "MMM-M.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "fs": "^0.0.1-security",
+    "himalaya": "^0.2.3",
+    "request": "^2.79.0",
+    "striptags": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cowboysdude/MMM-M.git"
+  },
+  "author": "cowboysdude",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cowboysdude/MMM-M/issues"
+  },
+  "homepage": "https://github.com/cowboysdude/MMM-M#readme"
+}
