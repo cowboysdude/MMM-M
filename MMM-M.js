@@ -92,7 +92,7 @@ Module.register("MMM-M", {
        scheduleCarousel: function() {
        		console.log("Scheduling Movies...");
 	   		this.rotateInterval = setInterval(() => {
-				this.activeItem++;
+				this.activeItem += 2;
 				this.updateDom(this.config.animationSpeed);
 			}, this.config.rotateInterval);
 	   },
