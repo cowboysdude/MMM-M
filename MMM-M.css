@@ -1,0 +1,28 @@
+
+.MMM-M .span {
+    border-spacing: 10px 0px;
+    border-collapse: separate;
+    text-align: center;
+    font-size: 10px;
+}
+.MMM-M .div {
+    vertical-align: middle;
+    font-size: 10px;
+}
+.MMM-M .imgDes {
+  width: 70%;
+  height: 70%;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+ 
+}
+.MMM-M .forecast {
+    color: #fff;
+}
+.MMM-M .stadium {
+    color: #4d79ff;
+}
+.MMM-M .gametemp {
+    color: #10B1C8;
+}
