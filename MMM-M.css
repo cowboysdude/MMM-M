@@ -1,28 +1,24 @@
 
-.MMM-M .span {
-    border-spacing: 10px 0px;
-    border-collapse: separate;
-    text-align: center;
-    font-size: 10px;
-}
-.MMM-M .div {
-    vertical-align: middle;
-    font-size: 10px;
+
+.MMM-M .p {
+	
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  text-shadow: 3px 3px 0px rgba(126, 136, 106, 0.45);
+   
 }
 .MMM-M .imgDes {
-  width: 70%;
-  height: 70%;
-  margin-left: 10px;
-  margin-right: 10px;
+  width: 150px;
+  height: 250px;
+  margin-top: 10px;
   overflow: hidden;
+  margin: auto;
  
 }
-.MMM-M .forecast {
-    color: #fff;
-}
-.MMM-M .stadium {
+.MMM-M .header {
+	
+	text-align: center;
     color: #4d79ff;
-}
-.MMM-M .gametemp {
-    color: #10B1C8;
 }

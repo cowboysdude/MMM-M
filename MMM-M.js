@@ -11,7 +11,7 @@ Module.register("MMM-M", {
        defaults: {
            key: "",
            updateInterval: 10 * 60 * 1000, // every 10 minutes
-           animationSpeed: 1000,
+           animationSpeed: 5,
            initialLoadDelay: 10, // 0 seconds delay
            retryDelay: 2500,
            rotateInterval: 10 * 1000
@@ -49,7 +49,8 @@ Module.register("MMM-M", {
 
          var header = document.createElement("header");
          header.className = "header";
-         header.innerHTML = "In Theaters Now";
+         header.classList.add("header");
+         header.innerHTML = "Current Movies";
          wrapper.appendChild(header);
          
          var keys = Object.keys(this.movies);
@@ -58,7 +59,7 @@ Module.register("MMM-M", {
 				this.activeItem = 0;
 			}
            	var movie = this.movies[keys[this.activeItem]];
-           	//var title = movie.Text.content;
+            
            	var title = movie.attributes.alt;
            	var img = movie.attributes.dataset.src;
          
@@ -69,9 +70,14 @@ Module.register("MMM-M", {
          movieLogo.appendChild(movieIcon);
          wrapper.appendChild(movieLogo);
          
+         
           var des = document.createElement("p");
          des.classList.add("small", "bright", "p");
+         if (title != ""){
          des.innerHTML = title;
+         } else {
+		 des.innerHTML = "";
+		 }
          wrapper.appendChild(des);
          }
          return wrapper;
