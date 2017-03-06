@@ -23,4 +23,4 @@ npm install
 		  	  position: 'top_center',
 		   },
 
-![alt tag](https://raw.githubusercontent.com/cowboysdude/MMM-M/Master/Capture.png)
+
