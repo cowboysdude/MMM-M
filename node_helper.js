@@ -17,7 +17,6 @@ var himalaya = require('himalaya');
  	 	this.movies = {
             data: null
         };
-        this.path = "modules/MMM-M/movies.json";
     	console.log("Starting module: " + this.name);
     },
   
