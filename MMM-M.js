@@ -11,7 +11,7 @@ Module.register("MMM-M", {
        defaults: {
            key: "",
            updateInterval: 10 * 60 * 1000, // every 10 minutes
-           animationSpeed: 1000,
+           animationSpeed: 5,
            initialLoadDelay: 10, // 0 seconds delay
            retryDelay: 2500,
            rotateInterval: 10 * 1000
