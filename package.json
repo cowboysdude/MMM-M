@@ -4,7 +4,7 @@
   "description": "Current movies module for MagicMirror2",
   "main": "MMM-M.js",
   "dependencies": {
-    "cheerio": "^0.22.0",
+    "cheerio": "^1.0.0",
     "fs": "^0.0.2",
     "himalaya": "^0.2.3",
     "request": "^2.79.0",
